@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    background-color: hsl(73, 100%, 85%); /* Light orange color */
+}
+.student-photo img {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: auto;
+    display: block;
+    margin: 0 ; /* Center the image horizontally */
+}
+.student-info {
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate student info from photo */
+}
+.welcome-section {
+    text-align: center;
+    padding: 100px 0;
+}
+.welcome-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.welcome-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.section {
+    display: none;
+}
+.logo {
+    margin-bottom: 50px; /* Add margin below the logo */
+} 
+ .logo img {
+    max-width: 100px; /* Increase the size of the logo */
+    height: auto; 
+    
+} 
+
+main {
+    margin-top: 10px; /* Add margin at the top of the main content */
+}
+.student-details {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid hsl(81, 72%, 28%);
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #f48a8a;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #73f51b;
+    color: #d4ec95;
+    cursor: pointer;
+}
+
+#activity-list {
+    margin-top: 20px;
+}
